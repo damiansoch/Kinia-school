@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shih Tzu</title>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <script src="./jquery-3.6.3.min.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- main navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Title placeholder</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-info"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Appointments
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="./appointment1.html"
+                      >-Shih Tzu-</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">-Placeholder-</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">-Placeholder-</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">-Placeholder-</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">-Placeholder-</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h1 class="my-3 text-center">Shih Tzu</h1>
+      <ul class="nav my-3 d-flex align-content-center justify-content-center">
+        <li class="nav-item">
+          <button
+            type="button"
+            class="btn btn-info mx-2 my-2"
+            onclick="clickHandler('./shihTzu/shihTzuBreed.html')"
+          >
+            Breed
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            type="button"
+            class="btn btn-info mx-2 my-2"
+            onclick="clickHandler('./shihTzu/shihTzuDetails.html')"
+          >
+            Dog details
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            type="button"
+            class="btn btn-info mx-2 my-2"
+            onclick="clickHandler('./shihTzu/shihTzuGroomingPlan.html')"
+          >
+            Grooming: Plan
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            type="button"
+            class="btn btn-info mx-2 my-2"
+            onclick="clickHandler('./shihTzu/shihTzuSteps.html')"
+          >
+            Grooming: Step by step
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            type="button"
+            class="btn btn-info mx-2 my-2"
+            onclick="clickHandler('./shihTzu/summary.html')"
+          >
+            Grooming: Summary
+          </button>
+        </li>
+      </ul>
+      <!-- content -->
+
+      <div id="includedContent"></div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
