@@ -68,8 +68,8 @@
         <li class="nav-item">
           <button
             type="button"
-            class="btn btn-info mx-2 my-2"
-            onclick="clickHandler('./shihTzu/shihTzuBreed.html')"
+            class="btn btn-info mx-2 my-2 col-10"
+            onclick="clickHandlerBreed()"
           >
             Breed
           </button>
@@ -78,7 +78,7 @@
           <button
             type="button"
             class="btn btn-info mx-2 my-2"
-            onclick="clickHandler('./shihTzu/shihTzuDetails.html')"
+            onclick="clickHandlerDetails()"
           >
             Dog details
           </button>
@@ -87,7 +87,7 @@
           <button
             type="button"
             class="btn btn-info mx-2 my-2"
-            onclick="clickHandler('./shihTzu/shihTzuGroomingPlan.html')"
+            onclick="clickHandlerPlan()"
           >
             Grooming: Plan
           </button>
@@ -96,7 +96,7 @@
           <button
             type="button"
             class="btn btn-info mx-2 my-2"
-            onclick="clickHandler('./shihTzu/shihTzuSteps.html')"
+            onclick="clickHandlerSteps()"
           >
             Grooming: Step by step
           </button>
@@ -105,15 +105,285 @@
           <button
             type="button"
             class="btn btn-info mx-2 my-2"
-            onclick="clickHandler('./shihTzu/summary.html')"
+            onclick="clickHandlerSummary()"
           >
             Grooming: Summary
           </button>
         </li>
       </ul>
       <!-- content -->
+      <!-- Breed -->
+      <div class="card" id="breed" style="display: none">
+        <h5 class="card-title text-center my-2">Shih Tzu Breed Summary</h5>
 
-      <div id="includedContent"></div>
+        <div class="mx-auto img_container" style="max-width: 400px">
+          <img
+            src="./shihTzu/images/Shihtzu.jpg"
+            class="img-thumbnail rounded mx-auto d-block my-3 rounded-circle img-fluid py-1"
+            alt="Shih Tzu"
+          />
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            The Shih Tzu is a sturdy dog with a small muzzle and normally has
+            large dark brown eyes. The Chinese have described their head shapes
+            as "owl head" and "lion head", and their mouth as "frog mouths".[4]
+            They have a soft and long double coat that will tangle and mat
+            easily if not brushed at least every 2 or 3 days. A Shih Tzu should
+            stand no more than 26.7cm (101⁄2") at the withers and with an ideal
+            weight of 4.0 to 7.5kg (9 to 17 lb). Floppy ears are covered with
+            long fur, and the heavily furred tail is carried curled over the
+            back. The coat may be of any color, though white and with blazes of
+            grey are frequently seen. A very noticeable feature is the
+            underbite, which is required in the breed standard.[5] Because of
+            their long coat and fast-growing hair, regular grooming is
+            necessary, which may be expensive. The traditional long silky coat,
+            which tends to reach the floor, requires daily brushing to avoid
+            tangles. The coat can be clipped short to simplify care, but still
+            requires frequent brushing. For showing, the coat must be left in
+            its natural state, though trimming for neatness around the feet and
+            anus is allowed. The shorter cut is typically called a "puppy
+            cut"[6] or a "teddy bear cut" when the puppy cut is accompanied by a
+            fuller, rounder face, resembling a stuffed animal.
+          </p>
+        </div>
+      </div>
+      <!-- Breed -->
+      <!-- Details -->
+      <div class="card" id="details" style="display: none">
+        <h5 class="card-title text-center my-2">Detail of athe grooming dog</h5>
+        <div class="mx-auto img_container" style="max-width: 400px">
+          <img
+            src="./shihTzu/images/ShihTzuapp1.jpg"
+            class="img-thumbnail rounded mx-auto d-block my-3 rounded-circle"
+            alt="Shih Tzu"
+          />
+        </div>
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5>Bread:</h5>
+              <p>Shih Tzu</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Bread:</h5>
+              <p>Shih Tzu</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Name:</h5>
+              <p>placeholder</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Age:</h5>
+              <p>placeholder</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Owner:</h5>
+              <p>placeholder</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Living enviroment:</h5>
+              <p>placeholder</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Coat condition:</h5>
+              <p>placeholder</p>
+            </li>
+          </ul>
+
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <!-- Details -->
+      <!-- plan -->
+      <div class="card" id="plan" style="display: none">
+        <h5 class="card-title text-center my-2">Grooming: Plan</h5>
+
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5>Item 1:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 2:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 3:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 4:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 5:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 6:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 7:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 8:</h5>
+              <p>Description</p>
+            </li>
+          </ul>
+
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <!-- plan -->
+      <!-- steps -->
+      <div class="card" id="steps" style="display: none">
+        <h5 class="card-title text-center my-2">Grooming: Step by step</h5>
+
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5>Item 1:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 2:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 3:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 4:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 5:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 6:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 7:</h5>
+              <p>Description</p>
+            </li>
+            <li class="list-group-item">
+              <h5>Item 8:</h5>
+              <p>Description</p>
+            </li>
+          </ul>
+
+          <p class="card-text"></p>
+        </div>
+      </div>
+      <!-- steps -->
+      <!-- summary -->
+      <div class="card" id="summary" style="display: none">
+        <h5 class="card-title text-center my-2">Groomin: Summary</h5>
+        <div class="row">
+          <div class="card-body col-md-4 col-sm-12">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <h3>Before</h3>
+              </li>
+              <li class="list-group-item img_container">
+                <img
+                  src="./shihTzu/images/ShihTzuapp1.jpg"
+                  class="img-thumbnail rounded mx-auto d-block my-3 rounded-circle"
+                  alt="Shih Tzu"
+                />
+              </li>
+
+              <li class="list-group-item">
+                <h5>Item 1:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 2:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 3:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 4:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 5:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 6:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 7:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 8:</h5>
+                <p>Description</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card-body col-md-4 col-sm-12">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <h3>After</h3>
+              </li>
+              <li class="list-group-item img_container">
+                <img
+                  src="./shihTzu/images/ShihTzuapp1.jpg"
+                  class="img-thumbnail rounded mx-auto d-block my-3 rounded-circle"
+                  alt="Shih Tzu"
+                />
+              </li>
+              <li class="list-group-item">
+                <h5>Item 1:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 2:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 3:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 4:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 5:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 6:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 7:</h5>
+                <p>Description</p>
+              </li>
+              <li class="list-group-item">
+                <h5>Item 8:</h5>
+                <p>Description</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- summary -->
     </div>
 
     <script src="./app.js"></script>

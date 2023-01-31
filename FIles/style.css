@@ -1,3 +1,7 @@
-.card img {
-  max-width: 400px;
+.img_container {
+}
+.img_container :hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 5px 5px 10px;
+  transform: scale(1.01);
 }
